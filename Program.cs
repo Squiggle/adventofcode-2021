@@ -2,3 +2,4 @@
 
 // day 01
 DepthFinder.Run();
+Pilot.Run();
