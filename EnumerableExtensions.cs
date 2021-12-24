@@ -17,5 +17,13 @@ namespace adventofcode2021
         index++;
       }
     }
+
+    public static IEnumerable<int> Enumerate(this int count)
+    {
+      for (var i = 0; i < count; i++)
+      {
+        yield return i;
+      }
+    }
   }
 }
